@@ -6,7 +6,7 @@ CREATE TABLE pessoas (
 	id int primary key auto_increment,
     nome varchar(45) not null,
     sobrenome varchar(45) not null,
-    cpf varchar(11) not null,
+    cpf varchar(14) not null,
     data_nascimento DATE not null,
     telefone varchar(18) not null,
     login varchar(45) not null,
