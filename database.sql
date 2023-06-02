@@ -26,7 +26,7 @@ CREATE TABLE `empresas` (
   `id` int NOT NULL AUTO_INCREMENT,
   `razao_social` varchar(80) NOT NULL,
   `nome_fantasia` varchar(80) NOT NULL,
-  `cnpj` varchar(11) NOT NULL,
+  `cnpj` varchar(14) NOT NULL,
   `atividade` varchar(45) NOT NULL,
   `email` varchar(45) NOT NULL,
   `telefone` varchar(18) NOT NULL,
