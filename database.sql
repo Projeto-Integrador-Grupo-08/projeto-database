@@ -145,7 +145,7 @@ DROP TABLE IF EXISTS `resultados`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `resultados` (
-  `id` int NOT NULL,
+  `id` int NOT NULL AUTO_INCREMENT,
   `id_resposta` int NOT NULL,
   `id_pessoa` int NOT NULL,
   PRIMARY KEY (`id`),
