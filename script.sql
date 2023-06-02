@@ -77,7 +77,7 @@ ALTER TABLE respostas ADD CONSTRAINT fk_resposta_pergunta
 FOREIGN KEY (id_pergunta) REFERENCES perguntas (id);
 
 CREATE TABLE resultados (
-	id int primary key not null,
+	id int primary key AUTO_INCREMENT,
     id_resposta int not null,
     id_pessoa int not null
 );
